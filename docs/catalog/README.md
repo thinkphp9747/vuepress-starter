@@ -28,7 +28,7 @@ export default {
 	},
 	mounted: function() {
 		let _this = this;
-		axios.get('http://www.ccbcz.cn/content/public/index.php/index/api1/index')
+		axios.get('https://www.ccbcz.cn/content/public/index.php/index/api1/index')
 		.then(function(res){
 			console.log(res);
 			_this.msg = res.data[0].model;
